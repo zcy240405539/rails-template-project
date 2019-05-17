@@ -1,0 +1,18 @@
+en:
+  hello: "Hello world"
+  language: "English"
+  appname: "Rails Template App"
+  activerecord:
+    attributes:
+      user:
+        language: "Language"
+        timezone: "Timezone"
+  models:
+    user: "User"
+  devise:
+    sessions:
+      new:
+        sign_out: "Logout"
+    registrations:
+      edit:
+        title: "Account Settings"

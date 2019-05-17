@@ -1,0 +1,18 @@
+zh-CN:
+  hello: "Hello world"
+  language: "中文"
+  appname: "RoR模板应用"
+  activerecord:
+    attributes:
+      user:
+        language: "语言"
+        timezone: "时区"
+  models:
+    user: "用户"
+  devise:
+    sessions:
+      new:
+        sign_out: "登出"
+    registrations:
+      edit:
+        title: "帐号设定"
