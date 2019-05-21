@@ -15,9 +15,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
-# Web server
+# Use Capistrano for deployment
 gem 'capistrano', '~> 3.11'
-gem 'capistrano-rails', '~> 1.4'
+#gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-rails', group: :development
 gem 'capistrano-passenger', '~>0.2.0'
 gem 'capistrano-rbenv', '~>2.1', '>= 2.1.4'
 # Use CoffeeScript for .coffee assets and views
@@ -42,9 +43,6 @@ gem "bootstrap_form",
     branch: "master"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
