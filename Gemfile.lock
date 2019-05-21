@@ -243,7 +243,7 @@ DEPENDENCIES
   byebug
   capistrano (~> 3.11)
   capistrano-passenger (~> 0.2.0)
-  capistrano-rails
+  capistrano-rails (~> 1.4)
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   coffee-rails (~> 4.2)
   devise

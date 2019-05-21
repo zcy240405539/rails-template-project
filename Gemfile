@@ -17,8 +17,8 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 # Use Capistrano for deployment
 gem 'capistrano', '~> 3.11'
-#gem 'capistrano-rails', '~> 1.4'
-gem 'capistrano-rails', group: :development
+gem 'capistrano-rails', '~> 1.4'
+#gem 'capistrano-rails', group: :development
 gem 'capistrano-passenger', '~>0.2.0'
 gem 'capistrano-rbenv', '~>2.1', '>= 2.1.4'
 # Use CoffeeScript for .coffee assets and views
