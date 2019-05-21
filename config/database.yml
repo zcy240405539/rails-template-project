@@ -81,6 +81,5 @@ test:
 production:
   <<: *default
   database: rails-template-project_production
-  url: "167.99.101.113"
   username: rails
   password: 6177b637e9a9c86c56585d194e76174d
