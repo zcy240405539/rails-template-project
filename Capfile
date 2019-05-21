@@ -30,7 +30,7 @@ install_plugin Capistrano::SCM::Git
 require "capistrano/rails"
 require "capistrano/rbenv"
 # require "capistrano/chruby"
-# require "capistrano/bundler"
+require "capistrano/bundler"
 # require "capistrano/rails/assets"
 # require "capistrano/rails/migrations"
 require "capistrano/passenger"
@@ -39,4 +39,4 @@ require "capistrano/passenger"
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 
 set :rbenv_type, :user
-set :rbenv_ruby, '2.5.1'
+# set :rbenv_ruby, '2.5.1'
