@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: myapp
-  username: rails
-  password: Avignon8888
+  #username: rails
+  #password: Avignon8888
