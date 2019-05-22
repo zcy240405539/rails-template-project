@@ -82,4 +82,4 @@ production:
   <<: *default
   database: myapp
   username: rails
-  password: 6177b637e9a9c86c56585d194e76174d
+  password: Avignon8888
