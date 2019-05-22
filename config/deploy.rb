@@ -3,6 +3,7 @@ lock "~> 3.11.0"
 
 set :application, "myapp"
 set :repo_url, "git@github.com:zcy240405539/rails-template-project.git"
+# Deploy to the user's home directory
 set :deploy_to, "/home/rails/#{fetch :application}"
 
 # Default branch is :master
@@ -26,6 +27,9 @@ set :deploy_to, "/home/rails/#{fetch :application}"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets","vendor/bundle", ".bundle", "public/system", "public/uploads"
+# This is useful if you don't want to use ENV variables
+#append :linked_files, 'config/database.yml', 'config/secrets.yml'
+
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
